@@ -1,0 +1,148 @@
+@media (max-width: 991px){
+    header{
+        .row{
+            margin-right: 10px;
+            .align-self-start{
+                margin-left: -10px !important;
+            }
+        }
+    }
+    .latest-work{
+        height: 205vh !important;
+        .card{
+            height: 50vh !important;
+            width: 56vw !important;
+            margin-right: auto !important;
+            margin-left: auto !important;
+        }
+        .back{
+            right: 21.5% !important;
+            .details{
+                h4{
+                    font-size: 21px;
+                }
+                p{
+                    font-size: 14px;
+                }
+            }
+        }
+        svg{
+            bottom: -13% !important;
+        }
+    }
+    .contact{
+        .contact-info{
+            width: 75% !important;
+        }
+    }
+}
+@media (max-width: 768px){
+    header{
+        height: 90vh !important;
+        .row{
+            .col-md-4{
+                text-align: center;
+            }
+        }
+        svg{
+            top: 99% !important;
+        }
+    }
+    .services{
+        h1{
+            &::after{
+                bottom: -30% !important;
+            }
+        }
+        .d-flex{
+            .img{
+                img{
+                    width: 150px !important;
+                    height: 150px !important;
+                    margin-top: 15% !important;
+                }
+            }
+        }
+    }
+    .latest-work{
+        svg{
+            bottom: -10% !important;
+        }
+    }
+    .contact{
+        .contact-info{
+            width: 90% !important;
+        }
+    }
+}
+@media (max-width: 576px){
+    .services{
+        h1{
+            &::after{
+                bottom: -16% !important;
+            }
+        }
+        .d-flex{
+            flex-direction: column;
+            align-items: center;
+            .text{
+                h4{
+                    font-size: 21px;
+                }
+            }
+            .img{
+                margin: 15px 0 !important;
+            }
+        }
+    }
+    .latest-work{
+        .card{
+            width: 80vw !important;
+        }
+        .back {
+            right: 9% !important;
+        }
+        svg{
+            bottom: -7% !important;
+        }
+    }
+    .contact{
+        .contact-info{
+            height: auto !important;
+            .info{
+                width: 70%;
+                margin-left: auto;
+                margin-right: auto;
+                margin-top: 15px !important;
+            }
+        }
+    }
+}
+@media (max-width: 447px){
+    .services{
+        h1{
+            &::after{
+                bottom: -13% !important;
+            }
+        }
+        .d-flex{
+            .img{
+                img{
+                    width: 100px !important;
+                    height: 100px !important;
+                }
+            }
+            .text{
+                width: 85% !important;
+                button{
+                    padding: 5px 10px;
+                }
+            }
+        }
+    }
+    .latest-work{
+        svg {
+            bottom: -5%!important;
+        }
+    }
+}
